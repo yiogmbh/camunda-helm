@@ -8,6 +8,15 @@ Camunda public Kubernetes Helm repo and charts.
 > This repo is a community effort for **Camunda Platform 7**, if you are looking for the brand new Camunda platform
 > then go to the official [**Camunda Platform 8** Helm repo](https://github.com/camunda/camunda-platform-helm).
 
+
+> **Note (yio gmbh)**
+> 
+> We forked this repository as we run it on a more recent kubernetes version using the stable ingress
+> version (using especially *io.k8s.api.networking.v1.IngressBackend* api).
+> This requires changes to the ingress templates. At the moment we do not have time to create
+> syntax having backwards compatibility, so we forked the repository.
+> We plan to bring changes back upstream, as soon as we have time to create a high quality solution.
+
 ## Repository
 
 ```sh
