@@ -12,6 +12,43 @@ entries:
           url: https://github.com/camunda/camunda-bpm-platform
     apiVersion: v2
     appVersion: latest
+    created: "2022-07-29T14:46:58.638542815+02:00"
+    description: 'Helm Chart for Camunda BPM Platform (Engines, Tasklist, Cockpit,
+      etc). '
+    digest: 507f1fa05d130cf247afabd7aa342f57b3d763e106914df887d37eb5b7d6b94e
+    home: https://camunda.com
+    icon: https://docs.camunda.org/get-started/img/Camunda-Circle.svg
+    keywords:
+    - bpm
+    - bpmn
+    - camunda-bpm-platform
+    - camunda-engine
+    - dmn
+    - process-engine
+    - workflow
+    maintainers:
+    - name: aabouzaid
+      url: https://tech.aabouzaid.com
+    name: camunda-bpm-platform
+    sources:
+    - https://github.com/camunda-community-hub/camunda-helm/tree/main/charts/camunda-bpm-platform
+    - https://github.com/camunda/docker-camunda-bpm-platform
+    - https://github.com/camunda/camunda-bpm-platform
+    type: application
+    urls:
+    - https://github.com/yiogmbh/camunda-helm/releases/download/camunda-bpm-platform-7.6.1/camunda-bpm-platform-7.6.1.tgz
+    version: 7.6.1
+  - annotations:
+      artifacthub.io/changes: ""
+      artifacthub.io/links: |
+        - name: Camunda BPM Platform v7 Helm Chart
+          url: https://github.com/camunda-community-hub/camunda-helm/tree/main/charts/camunda-bpm-platform
+        - name: Camunda BPM Platform v7 Docker
+          url: https://github.com/camunda/docker-camunda-bpm-platform
+        - name: Camunda BPM Platform v7
+          url: https://github.com/camunda/camunda-bpm-platform
+    apiVersion: v2
+    appVersion: latest
     created: "2022-07-29T14:39:39.890304259+02:00"
     description: 'Helm Chart for Camunda BPM Platform (Engines, Tasklist, Cockpit,
       etc). '
@@ -38,4 +75,4 @@ entries:
     urls:
     - https://github.com/yiogmbh/camunda-helm/releases/download/camunda-bpm-platform-7.6.0/camunda-bpm-platform-7.6.0.tgz
     version: 7.6.0
-generated: "2022-07-29T14:39:39.890311322+02:00"
+generated: "2022-07-29T14:46:58.63855613+02:00"
